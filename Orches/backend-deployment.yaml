@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: patient-backend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: patient-backend
+  template:
+    metadata:
+      labels:
+        app: patient-backend
+    spec:
+      containers:
+        - name: backend
+          image: ghcr.io/YOUR_USERNAME/patient-backend:latest
+          ports:
+            - containerPort: 8000
