@@ -1,6 +1,6 @@
 # Patient Insight Platform
 
-A full-stack healthcare analytics application built with FastAPI, PostgreSQL, Docker, Kubernetes, and CI/CD.
+A full-stack healthcare analytics application built with: FastAPI, PostgreSQL, Docker, Kubernetes, and CI/CD.
 
 ## Features
 - REST API for patient records
