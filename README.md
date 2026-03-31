@@ -3,11 +3,11 @@
 A full-stack healthcare analytics application built on: FastAPI, PostgreSQL, Docker, Kubernetes, and CI/CD.
 
 ## Features
-- REST API for patient records
-- PostgreSQL database
-- Dockerized services
-- Kubernetes deployment
-- CI with security scanning
+1. REST API for patient records
+2. PostgreSQL database
+3. Dockerized services
+4. Kubernetes deployment
+5. CI with security scanning
 
 ## Run Locally
 docker-compose up --build
